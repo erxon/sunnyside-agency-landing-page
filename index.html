@@ -1,68 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
   <title>Frontend Mentor | Sunnyside agency landing page</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@700;900&display=swap" rel="stylesheet">
+
+
 </head>
+
 <body>
-  About
-  Services
-  Projects
-  Contact
 
-  We are creatives
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="images/logo.svg" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="ms-auto navbar-nav">
+          <li class="nav-item mt-1">
+            <a class="nav-link" aria-current="page" href="#">About</a>
+          </li>
+          <li class="nav-item mt-1">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item mt-1">
+            <a class="nav-link" href="#">Projects</a>
+          </li>
+          <button class="contact btn btn-light btn-lg" type="button" name="button">CONTACT</button>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-  Transform your brand
+  <!--Heading-->
+  <section id="heading">
+    <h1>We are creatives</h1>
+  </section>
 
-  We are a full-service creative agency specializing in helping brands grow fast. 
-  Engage your clients through compelling visuals that do most of the marketing for you.
+  <!--About-->
+  <section id="about">
+    <h2>Transform your brand</h2>
 
-  Learn more
+    <p>We are a full-service creative agency specializing in helping brands grow fast.
+      Engage your clients through compelling visuals that do most of the marketing for you.</p>
 
-  Stand out to the right audience
+    <a href="#">Learn more</a>
 
-  Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. 
+    <h2>Stand out to the right audience</h2>
 
-  Learn more
+    <p>Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.</p>
 
-  Graphic design
-  Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.
+    <a href="#">Learn more</a>
+  </section>
 
-  Photography
-  Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
+  <!--Services-->
+  <section id="services">
+    <h3>Graphic design</h3>
+    <p>Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
 
-  Client testimonials
+    <h3>Photography</h3>
+    <p>Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+  </section>
 
-  We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
-  Emily R.
-  Marketing Director
 
-  Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.
-  Thomas S.
-  Chief Operating Officer
+  <!--Testimonials-->
+  <section id="testimonials">
+    <h3>Client testimonials</h3>
 
-  Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
-  Jennie F.
-  Business Owner
+    <p>We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
+    <p>Emily R.</p>
+    <p>Marketing Director</p>
 
-  About
-  Services
-  Projects
-  Contact
+    <p>Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.</p>
+    <p>Thomas S.</p>
+    <p>Chief Operating Officer</p>
+
+    <p>Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
+    <p>Jennie F.</p>
+    <p>Business Owner</p>
+  </section>
+
+
+  <footer>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Projects</a>
+    <a href="#">Contact</a>
+  </footer>
+
 
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Your Name Here</a>.
   </div>
 </body>
+
 </html>
